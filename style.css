@@ -36,6 +36,14 @@
 .botao{
     background-color: rgb(105, 105, 105);
     color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao:hover{
+    cursor: pointer;
 }
 
 .campo-senha {
