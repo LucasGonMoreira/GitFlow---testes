@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:gray
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 50px;
+    background-color:ghostwhite;
+    border-radius: 20px;
+    width: 25em;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.input{
+    height: 50px;
+    font-size: 20px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    filter: drop-shadow(4px 4px 8px rgba(172, 172, 172, 0.5));
+    caret-color: gray;
+}
+
+.botao{
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
+
+.campo-senha {
+    position: relative;
+    width: 100%;
+}
+
+.campo-senha input {
+    width: 100%;
+    padding-right: 45px; /* espaço pro botão */
+}
+
+.ocultar-senha {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
